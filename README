@@ -1,0 +1,37 @@
+Genetic C++ library (libgen) README
+===================================
+
+
+0. Contents
+-------------------------
+1. About
+2. How to build
+
+
+1. About
+-------------------------
+
+The libgen genetic library provides a C++ implementation for general
+purpose genetic algorithms.
+
+For now the documentation will be found throughout the code and it is
+rather scarce, but this will be improved in the future.
+
+The library allows using genetic algorithms to solve any problem
+provided that:
+* it can be encoded on "chromosomes" (genotype / phaenotype conversion)
+* phaenotypes have a well defined "fitness" function
+
+
+2. How to build
+-------------------------
+
+To build, the following are required:
+* gcc
+* make
+
+The Makefile provides targets for building the library (libgen). Running
+
+	make
+
+will build the library and the unit tests, and will run the unit tests.
